@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -18,7 +17,7 @@ class NoteItem extends StatelessWidget {
         children: [
           ListTile(
             title: const Text(
-              'Flutter tips',
+              'Notes App',
               style: TextStyle(fontSize: 26, color: Colors.black),
             ),
             subtitle: Padding(
